@@ -1,0 +1,24 @@
+.section-selector {
+    background-color: rgb(65, 212, 122);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    border: 0px solid green;
+}
+
+.content {
+    border: 1px solid rgb(53, 92, 31);
+    height: 100px;
+}
+
+.container {
+    padding: 5px 15px;
+}
+
+.section-selector.active {
+    background-color:  rgb(53, 92, 31);
+}
+
+.display-none {
+    display: none;
+}

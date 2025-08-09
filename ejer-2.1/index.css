@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px; /* separación entre pestañas */
+}
+
+.tab {
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: #ddd;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab.active {
+    background-color: #007BFF; /* pestaña activa */
+    color: white;
+    font-weight: bold;
+}
+
+.content-box {
+    border: 2px solid #007BFF; /* borde mismo color que pestaña activa */
+    padding: 20px;
+    margin-top: -1px; /* para pegar con la pestaña */
+    border-radius: 0 0 5px 5px;
+}
