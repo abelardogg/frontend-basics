@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.parrafo-1 {
+    text-align: center;
+}
+
+
+.top-panes {
+    width: 400px;
+    border-radius: 10px 0px;
+    border-width:  5px;
+    border-color: black;
+    border-style: solid;
+}
